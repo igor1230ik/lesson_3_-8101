@@ -1,0 +1,67 @@
+@import "null.css";
+
+h1 {
+    color: rgb(255, 208, 0);
+}
+h2 {
+    color: rgb(0, 255, 13);
+}
+h3 {
+    color: rgb(25, 0, 255);
+}
+h4 {
+    color: rgb(255, 0, 200);
+}
+ 
+.nesting > p {
+    color: pink;
+} 
+
+.start ~ p {
+    color: blueviolet;
+} 
+
+.start + p {
+    color: olive;
+} 
+
+li a {
+    color: black;
+}
+
+[class*="-chocolate"] {
+    color: chocolate;
+}
+
+[class*="-gray"] {
+    color: gray;
+}
+
+ul li {
+    color: red;
+}
+
+.color {
+    color: black;
+}
+
+.color-green {
+    color: green;
+}
+
+.color-blue {
+    color: blue;
+}
+
+#import li {
+    color: chocolate;
+}
+
+.type li {
+    color: rgb(0, 0, 0);
+}
+
+[class*="-red"] {
+    color: red;
+}
+
